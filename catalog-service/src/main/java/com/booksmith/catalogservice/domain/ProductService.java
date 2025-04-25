@@ -2,13 +2,12 @@ package com.booksmith.catalogservice.domain;
 
 import com.booksmith.catalogservice.ApplicationProperties;
 import jakarta.transaction.Transactional;
+import java.util.Optional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-
-import java.util.Optional;
 
 @Service
 @Transactional
